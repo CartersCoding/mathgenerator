@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: white;
+    font-family: system-ui;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    margin-top: -22px;
+    text-align: left;
+    font-family: system-ui;
+    /* justify-content: center; */
+    margin-left: -20px;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+#scoreSection {
+    display: flex;
+    justify-content: left;
+    font-family: system-ui;
+    background-color: gray;
+    margin-left: -20px;
+}
+
+#scoreSection h2 {
+    margin-left: 20px;
+    margin-right:20px;
+    color: white;
+}
+
+.problem {
+    display: flex;
+    margin-left: 25px;
+    min-height: 200px;
+    background-color: blueviolet;
+    color: white;
+}
+
+/* #problemOne {
+    background-color: blueviolet;
+    color: white;
+} */
+
+#problemTwo {
+    background-color: green;
+    color: white;
+}
+
+.problem {
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+.problem h1, h3, p, label, input {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.problem h1 {
+    font-family: 'Times New Roman';
+}
+
+img {
+    margin-left: 25px;
+    margin-top: 25px;
+}
