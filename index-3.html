@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>Problem Generator</title>
+        <script src="script.js" defer></script>
+        
+    </head>
+    <body>
+        
+        <header>
+            <br>
+            <h1>Problem Generator</h1>
+            <h4>math.cartermeserve.com</h4>
+            <br>
+        </header>
+
+        <div id="scoreSection">
+            <h2 id="streak">🔥Streak: 0</h2>
+            <h2 id="score">Score: 0/0</h2>
+        </div>
+
+        <div id="inputSection">
+            <h2>Input model problem</h2>
+
+            <form target="_blank">
+                <label for="username">Coefficient:</label>
+                <input type="text" name="find_desc" placeholder="Coefficient" />
+                <label for="username">Variable:</label>
+                <input type="text" name="find_desc" placeholder="Variable (a-z)" size=5 />
+                <label for="username">Sign:</label>
+                <select name="cars" id="cars">
+                    <option value="volvo">+</option>
+                    <option value="saab">-</option>
+                </select>
+                <label for="username">Constant:</label>
+                <input type="text" name="find_desc" placeholder="Constant" />
+            </form>
+            <button class="generate-button">Generate Problem</button>
+            <button class="results-button">View Results</button>
+            <!-- <h3>Your Problem: 2x + 9 = 12</h3> -->
+            
+        </div>
+
+        <div id="problem-section">
+        </div>
+
+        <!-- <div class="problem" id="problemOne">
+            <div class="text-left">
+                <h3>Q U E S T I O N&nbsp&nbsp&nbspO N E</h2>
+                <h1>5x + 10 = 30</h1>
+                <p class="img-desc">Work out the problem on a piece of paper. Type your answer when you're done.</p> 
+                <p class="img-desc"><strong>3 attempts left.</strong></p></p>
+                <form>
+                    <input placeholder="Your Answer" />
+                    <button>Click Me!</button>
+                </form>
+            </div>
+        </div> -->
+
+        <!-- <div class="problem" id="problemTwo">
+            <div class="text-left">
+                <h3>Q U E S T I O N&nbsp&nbsp&nbspT W O</h2>
+                <h1>5x + 10 = 30</h1>
+                <p class="img-desc">Work out the problem on a piece of paper. Type your answer when you're done.</p> 
+                <p class="img-desc"><strong>You answered correctly! The answer was x = 4.</strong></p></p>
+                <form target="_blank" action="https://www.yelp.com/search?">
+                    <input type="text" name="find_desc" placeholder="Your Answer" />
+                    <input id="search-youtube" type="submit" value="Submit">
+                </form>
+            </div>
+            <img src="check.webp" height="200" width="200"/>
+        </div> -->
+
+        <!-- <iframe id="calc" width="219" height="302" src="https://calculator-1.com/outdoor/?f=0433ff&r=000000" scrolling="no" frameborder="0"></iframe> -->
+
+    </body>
+</html>
